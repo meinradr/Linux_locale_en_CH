@@ -36,7 +36,7 @@ category "i18n:2012";LC_MEASUREMENT
 END LC_IDENTIFICATION
 
 LC_CTYPE
-copy "fr_CH"
+copy "de_CH"
 END LC_CTYPE
 
 LC_COLLATE
@@ -48,11 +48,11 @@ copy "en_US"
 END LC_MESSAGES
 
 LC_MONETARY
-copy  "fr_CH"
+copy  "de_CH"
 END LC_MONETARY
 
 LC_NUMERIC
-copy "fr_CH"
+copy "de_CH"
 END LC_NUMERIC
 
 LC_TIME
