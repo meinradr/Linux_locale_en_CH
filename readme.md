@@ -16,7 +16,7 @@ add `en_CH UTF-8` to `/etc/locale.gen`
 
 
 	wget https://raw.githubusercontent.com/meinradr/ubuntu-locale-en_CH/master/en_CH
-	sudo localedef -i en_CH -f UTF-8 en_CH.UTF-8 -c -v
+	# sudo localedef -i en_CH -f UTF-8 en_CH.UTF-8 -c -v
 	sudo mv en_CH /usr/share/i18n/locales/
 	sudo locale-gen
 	sudo localectl set-locale LANG=en_CH.utf-8 LANGUAGE=en_CH:en
