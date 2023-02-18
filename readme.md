@@ -1,11 +1,20 @@
 # Locale en_CH
 
-Sources : 
- - https://askubuntu.com/a/162714/868786
- - https://lh.2xlibre.net/locale/en_US/
- - https://lh.2xlibre.net/locale/fr_CH/
- - https://wiki.ubuntuusers.de/systemd/localectl/
- - https://github.com/cbaconnier/ubuntu-locale-en_CH/
+## Usefull Linksi: 
+- https://askubuntu.com/a/162714/868786
+- https://lh.2xlibre.net/locale/en_US/
+- https://lh.2xlibre.net/locale/fr_CH/
+- https://wiki.ubuntuusers.de/systemd/localectl/
+- https://github.com/cbaconnier/ubuntu-locale-en_CH/
+
+- locale definitions for other regions:
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=localedata/locales/en_US
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=localedata/locales/de_DE
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=localedata/locales/de_CH
+  
+- how to:
+    - https://unix.stackexchange.com/questions/348502/why-should-one-use-update-locale-instead-of-directly-setting-language
+    - https://unix.stackexchange.com/questions/209853/how-to-easily-be-able-to-use-a-new-en-local
 
 # Installation
 
