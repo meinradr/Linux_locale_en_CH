@@ -20,16 +20,17 @@
 
 tested on debian 11
 
-uncomment `en_US.UTF-8 UTF-8` in `/etc/locale.gen`
-add `en_CH UTF-8` to `/etc/locale.gen`
+* uncomment `en_US.UTF-8 UTF-8` and `de_CH.UTF-8 UTF-8`in `/etc/locale.gen`  
+* add `en_CH UTF-8` to `/etc/locale.gen`
+* run the following commands:
 
-
-	wget https://raw.githubusercontent.com/meinradr/ubuntu-locale-en_CH/master/en_CH
+  ```
+	wget https://github.com/meinradr/linux_locale_en_CH/raw/master/en_CH
 	# sudo localedef -i en_CH -f UTF-8 en_CH.UTF-8 -c -v
 	sudo mv en_CH /usr/share/i18n/locales/
 	sudo locale-gen
 	sudo localectl set-locale LANG=en_CH.utf-8 LANGUAGE=en_CH:en
-	sudo update-locale 
-	
+	sudo update-locale
+  ```
 Next time you log in, the locale should be in use.
 
